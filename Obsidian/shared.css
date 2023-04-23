@@ -141,6 +141,9 @@ FRIENDS & CHAT
   background-color: var(--obsidian-main-color) !important;
   background: var(--obsidian-main-color) !important;
 }
+.friendinvites_InvitesList_3i8Fo {
+  background-color: var(--obsidian-main-color) !important;
+}
 
 /*
 DOWNLOADS
@@ -257,4 +260,11 @@ OTHER
 /* Lock screen */
 .lockscreen_Container_3rFFU {
   background: var(--obsidian-main-color) !important;
+}
+/* Console */
+.console_Console_1fuML {
+  background-color: var(--obsidian-main-color) !important;
+}
+.console_Suggestion_3C1UC {
+  color: #ffffff;
 }
