@@ -196,10 +196,11 @@ QUICK ACCESS
   background-color: #22262b !important;
 }
 .quickaccessmenu_Tab_1S76C {
-  background-color: var(--obsidian-main-color) !important;
+  background: none;
+  background-color: #00000000; /* Set to transparent */
 }
 .quickaccessmenu_Title_34nl5 {
-  background: var(--obsidian-main-color) !important;
+  background: none;
   box-shadow: none;
 }
 .GamepadMode.friendlist {
@@ -246,7 +247,12 @@ OTHER
   background: var(--obsidian-main-color) !important;
 }
 /* Notification */
+/* Current Stable */
 .notificationcontent_ShortTemplate_2w-Eq, .notificationcontent_PinnedTemplate_H_NPi, .notificationcontent_StandardTemplate_1B_uv, .notificationcontent_ShortTemplate_nwer8, .notificationcontent_StandardTemplate_5HZT7, .notificationcontent_PinnedTemplateDesktop_1-8YO, .notificationcontent_PinnedTemplate_1X-O1 {
+  background: var(--obsidian-main-color) !important;
+}
+/* Current Beta */
+.shorttemplates_ShortTemplate_29NLb {
   background: var(--obsidian-main-color) !important;
 }
 /* Tabbed Page Contents */
@@ -267,4 +273,15 @@ OTHER
 }
 .console_Suggestion_3C1UC {
   color: #ffffff;
+}
+/* Other Steam Big Picture Mode Components */
+.settings-container {
+  background-color: var(--obsidian-main-color) !important;
+}
+.spinnyboi {
+  background: var(--obsidian-main-color) !important;
+}
+.scrollpanel_ScrollPanel_1CXdi, .scrollpanel_ScrollY_313lB {
+  background: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color) !important;
 }
